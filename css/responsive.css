@@ -1,0 +1,87 @@
+/* tablet */
+@media all and (max-width: 992px) {
+  .initial {
+    background-size: 100%;
+    width: 75vw;
+    height: 75vw;
+  }
+  .content-initial h1 {
+    font-size: 2.8rem;
+  }
+  .welcome-page {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/background_portrait_1.jpg);
+  }
+  .name {
+    top: 25%;
+  }
+  /* an-nur */
+  .an-nur-wrapper {
+    margin: -20px 0 0 0;
+  }
+  .an-nur {
+    margin: 10px 0 0 0;
+  }
+  /* mempelai */
+  .mempelai img {
+    width: 40%;
+    margin-left: 30%;
+  }
+  .invite {
+    margin-bottom: 15%;
+  }
+
+  .mempelai h1 {
+    font-family: "brittany signature";
+    font-size: 2.5rem;
+  }
+  .mempelai h3 {
+    font-size: 1rem;
+  }
+  .tombol {
+    width: 200px;
+  }
+  .terima-kasih {
+    height: 100vh;
+  }
+}
+
+/* Smartphone */
+@media all and (max-width: 576px) {
+  .initial {
+    background-size: 100%;
+  }
+  .invite {
+    margin-bottom: 20%;
+  }
+  .an-nur-wrapper {
+    margin: -20px auto 0 auto;
+  }
+  .an-nur {
+    margin: 10px 0 0 0;
+  }
+  .tombol {
+    width: 200px;
+  }
+  .play-button {
+    bottom: 100px;
+    left: 10px;
+  }
+  .name {
+    top: 20%;
+  }
+  .name h1 {
+    font-size: 2.2rem;
+  }
+  .name h3 {
+    font-size: 1.5rem;
+  }
+  /* gmaps */
+  .gmaps {
+    width: 250px;
+    height: 200px;
+  }
+  .terima-kasih {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/Background_portarait2.jpg);
+    height: 100vh;
+  }
+}

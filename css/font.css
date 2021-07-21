@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Caviar Dreams;
+  src: url(../fonts/CaviarDreams_by_laurent_thompson.ttf);
+}
+@font-face {
+  font-family: Optimus Princeps;
+  src: url(../fonts/OptimusPrinceps.ttf);
+}
+@font-face {
+  font-family: Apalu Script;
+  src: url(../fonts/Apalu_script_by_khurasan.ttf);
+}
+@font-face {
+  font-family: Tahu!;
+  src: url(../fonts/Tahu!_script_by_khurasan.ttf);
+}
+@font-face {
+  font-family: Reman;
+  src: url(../fonts/Reman_script_by_khurasan.ttf);
+}
+@font-face {
+  font-family: Brittany Signature;
+  src: url(../fonts/BrittanySignature.ttf);
+}
+@font-face {
+  font-family: Mont;
+  src: url(../fonts/Mont-ExtraLightDEMO.otf);
+}
+@font-face {
+  font-family: Mont Heavy;
+  src: url(../fonts/Mont-HeavyDEMO.otf);
+}
