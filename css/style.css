@@ -247,10 +247,7 @@ img {
   z-index: 1;
 }
 .bg-biru-tua {
-  background-color: #1f6192;
-}
-footer {
-  margin-bottom: 90px;
+  background-image: linear-gradient(#206293, #226494);
 }
 footer a {
   text-decoration: none;
