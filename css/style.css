@@ -105,7 +105,7 @@ body {
   background: #2a93d5;
   color: black;
   position: fixed;
-  bottom: 50px;
+  bottom: 100px;
   left: 50px;
   cursor: pointer;
   z-index: 999;
