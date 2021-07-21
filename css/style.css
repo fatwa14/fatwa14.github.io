@@ -216,7 +216,7 @@ img {
   height: 300px;
 }
 /* prokes */
-.prokes-wrapper {
+.bg-biru-tua {
   background-color: #1f6192;
 }
 .prokes img {
@@ -249,6 +249,9 @@ img {
 .bg-biru-tua {
   background-color: #135589;
 }
+footer {
+  margin-bottom: 90px;
+}
 footer a {
   text-decoration: none;
   color: white;
@@ -259,4 +262,26 @@ footer a {
 }
 footer a:hover {
   color: aqua;
+}
+/* navbar */
+.navbar i {
+  font-size: 34px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.link:hover {
+  background-color: #1f6192;
+  color: #379bd8;
+}
+.navbar-row {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: -20px !important;
+}
+nav {
+  height: 90px;
+  box-shadow: 2px 2px 5px 1px #1afdfe;
 }

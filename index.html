@@ -98,10 +98,10 @@
     <!-- waves 1 -->
     <img src="img/waves/waves.png" alt="waves provided by loading.io" class="d-none"/>
     <!-- end of waves 1 -->
-    <div class="mempelai-wrapper d-none">
+    <div class="mempelai-wrapper d-none" id="couple">
       <div class="container">
         <div class="header col-10 offset-1">
-          <h2 class="text-center mt-n5 ff-reem">بسم الله الرحمن الرحيم</h2>
+          <h2 class="text-center pt-2 ff-reem">بسم الله الرحمن الرحيم</h2>
           <h3 class="text-center fw-bold ff-roboto-con">Assalamualaikum</h3>
           <h3 class="ff-roboto-con text-center fw-bold">Warahmatullahi Wabarakatuh</h3>
           <p class="text-center">Maha suci Allah SWT. yang telah menciptakan mahluk-Nya berpasang-pasangan. Ya Allah semoga ridho-Mu tercurah megiringi pernikahan putra-putri kami.</p>
@@ -207,7 +207,7 @@
     <div class="gallery d-none" id="gallery">
       <div class="container">
         <div class="header">
-          <h1 class="text-center pb-5 mt-n3 ff-brittany ts-biru-tua fz-3 fw-bold">Gallery</h1>
+          <h1 class="text-center pb-5 pt-4 ff-brittany ts-biru-tua fz-3 fw-bold">Gallery</h1>
         </div>
         <div class="gallery-image">
           <div class="row pb-5">
@@ -347,7 +347,7 @@
     <div class="wish d-none" id="wish">
       <div class="container">
         <div class="header col-10 offset-1">
-          <h1 class="text-center fw-bold pb-3 ff-brittany ts-biru-tua fz-3">Wishes</h1>
+          <h1 class="text-center pt-4 fw-bold pb-3 ff-brittany ts-biru-tua fz-3">Wishes</h1>
           <figure class="text-center pb-5">
             <blockquote class="blockquote">“Cinta itu macam musik yang indah. Bedanya, cinta sejati akan membuatmu tetap menari meskipun musiknya telah lama berhenti.”</blockquote>
             <figcaption class="blockquote-footer fw-bold">Tere Liye</figcaption>
@@ -481,7 +481,7 @@
     <img src="img/waves/waves5.png" alt="waves provided by loading.io" srcset=""  class="d-none"/>
     <!-- end of waves5 -->
     <!-- prokes -->
-    <div class="prokes-wrapper d-none py-5">
+    <div class="prokes-wrapper bg-biru-tua d-none py-5">
       <div class="container">
         <div class="col-10 offset-1 bg-light text-dark bs-biru-low-full prokes ">
           
@@ -548,7 +548,54 @@
       </div>
     </footer>
     <!-- end of footer -->
-
+    <!-- navbar -->
+    <nav class="navbar fixed-bottom navbar-dark bg-biru-tua d-block d-none d-sm-none text-light">
+      <div class="container d-inline">
+        <div class="row navbar-row py-0 mt-n2">
+          <div class="col-2 offset-1">
+            <a href="javascript:scrollKe('welcome')">
+              <div class="link">
+                <i class="bi bi-house-fill d-block text-center"></i>
+                <h5 class="text-center fz-1 ff-roboto-con">Home</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="javascript:scrollKe('couple')">
+              <div class="link">
+                <i class="bi bi-heart-fill d-block text-center"></i>
+                <h5 class="text-center fz-1 ff-roboto-con">Couple</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="javascript:scrollKe('event')">
+              <div class="link">
+                <i class="bi bi-calendar-date-fill d-block text-center"></i>
+                <h5 class="text-center fz-1 ff-roboto-con">Event</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="javascript:scrollKe('gallery')">
+              <div class="link">
+                <i class="bi bi-image-fill d-block text-center"></i>
+                <h5 class="text-center fz-1 ff-roboto-con">Gallery</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="javascript:scrollKe('wish')">
+              <div class="link">
+                <i class="bi bi-chat-square-quote-fill d-block text-center"></i>
+                <h5 class="text-center fz-1 ff-roboto-con">Wish</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
     <!--Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
