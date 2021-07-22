@@ -28,6 +28,7 @@ open.addEventListener("click", function () {
     document.getElementById("welcome").scrollIntoView({ behavior: "smooth" });
   }
   scrollKeAwal();
+  pauseMusic();
 });
 // scroll
 function scrollKe(id) {

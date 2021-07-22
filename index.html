@@ -50,8 +50,8 @@
           </div>
         </div>
         <div class="play">
-          <audio autoplay src="/music/it_just_is_by_eaj.mp3" id="music" type="audio/mpeg" loop="loop"></audio>
-          <div class="play-button rounded-circle" id="play">
+          <audio preload="auto" src="/music/it_just_is_by_eaj.mp3" id="music" type="audio/mpeg" loop="loop"></audio>
+          <div class="play-button rounded-circle d-none" id="play">
             <i class="bi bi-pause-fill" id="logo-pp"></i>
           </div>
         </div>
@@ -344,147 +344,9 @@
     <!-- end of waves4 -->
 
     <!-- Wishes -->
-    <div class="wish d-none" id="wish">
+    <div class="wish d-none">
       <div class="container">
-        <div class="header col-10 offset-1">
-          <h1 class="text-center pt-4 fw-bold pb-3 ff-brittany ts-biru-tua fz-3">Wishes</h1>
-          <figure class="text-center pb-5">
-            <blockquote class="blockquote">“Cinta itu macam musik yang indah. Bedanya, cinta sejati akan membuatmu tetap menari meskipun musiknya telah lama berhenti.”</blockquote>
-            <figcaption class="blockquote-footer fw-bold">Tere Liye</figcaption>
-          </figure>
-        </div>
-      </div>
-      <div class="angpau bs-biru-low col-md-6 offset-md-3 col-10 offset-1 py-5">
-        <div class="head">
-          <h1 class="text-center pb-3 fw-bold ff-brittany ts-biru-tua fz-2">Love Gift</h1>
-          <p class="text-center">Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda terima kasih untuk kami, dapat mengklik tombol di bawah.</p>
-        </div>
-        <div class="tombol-gift mx-auto position-relative">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary mx-auto position-absolute top-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <i class="bi bi-gift-fill"></i> Wedding Gift
-          </button>
-          <!-- modal -->
-          <div class="modal fade py-3 " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-scrollable">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Love Gift</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body ">
-                  <div class="row">
-                    <div class="col-5 offset-1">
-                      <h5>BRI-<strong class="font-monospace" id="copy-no">01234567890</strong></h5>
-                      <h4>an. lorem</h4>
-                      <button class="btn  bg-dark text-light" id="copy-btn">Copy Nomor</button>
-                    </div>
-                    <div class="col-5">
-                      <h5>OVO-<strong id="copy_no" class="font-monospace">01234567890</strong></h5>
-                      <h4>an. lorem</h4>
-                      <button class="btn bg-dark text-light" id="copy-btn">Copy Nomor</button>
-                    </div>
-                  </div>
-                  <div class="col-10 offset-1">
-                  <div class="form pb-3 fw-bold">
-                    <h2>Kirim Pesan</h2>
-                    <div class="form-floating">
-                      <select class="form-select fw-bold" id="floatingSelect" aria-label="Floating label select example">
-                        <option selected>Nomor Rekening</option>
-                        <option value="1">BRI-01234567890</option>
-                        <option value="2">OVO-01234567890</option>
-                      </select>
-                      <label for="floatingSelect" class="fw-bold">Pilih Nomor Rekening</label>
-                    </div>
-                    <form class="form-floating">
-                      <input type="Nama" class="form-control" id="floatingInputName" placeholder="nama"" />
-                      <label for="floatingInputName">nama</label>
-                    </form>
-                    <form class="form-floating">
-                      <input type="Nama" class="form-control" id="floatingInputName" placeholder="nomor"" />
-                      <label for="floatingInputName">nomor HP</label>
-                    </form>
-                    <form class="form-floating">
-                      <input type="Nominal" class="form-control" id="floatingInputNom" placeholder="10000"" />
-                      <label for="floatingInputNom">nominal</label>
-                    </form>
-                    <div class="form-floating">
-                      <textarea class="form-control" placeholder="pesan anda" id="floatingTextarea"></textarea>
-                      <label for="floatingTextarea">Ucapan Doa</label>
-                    </div>
-                  </div>
-                </div>             
-                  
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Kirim</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="pesan-doa mt-5">
-        <div class="header">
-          <p class="text-center">Ucapan Selamat dan doa untuk</p>
-          <h1 class="text-center pb-5 ff-brittany fz-2 ts-biru-tua fw-bold">Dewi & Rahman</h1>
-        </div>
-      </div>
-      <div class="row px-0 mx-0">
-        <div class="col-md-5 offset-md-1 col-10 offset-1 form-wrapper">
-          <div class="form">
-            <div class="form-floating mb-auto">
-              <input type="name" class="form-control mb-2" id="floatingInput" placeholder="Nama" />
-              <label for="floatingInput">Nama</label>
-            </div>
-            <div class="form-floating">
-              <textarea class="form-control mb-2" placeholder="tinggalkan pesan dan/atau doa anda" id="floatingTextarea2" style="height: 100px"></textarea>
-              <label for="floatingTextarea2">Selamat dan Doa</label>
-            </div>
-            <button type="submit" class="btn btn-primary"></i> Kirim</button>
-          </div>
-        </div>
-        <div class="col-md-5 col-10 offset-1 offset-md-0 mt-5 mt-md-0 pesan-wrapper overflow-scroll">
-          <div class="pesan">
-            <div class="isi-pesan">
-              <h5 class="fw-bold">Test</h5>
-              <p class="fw-bold pb-1" id="clock"></p>
-              <p>test ini pesan dari yang dikirim</p>
-              <hr />
-            </div>
-            <div class="isi-pesan">
-              <h5 class="fw-bold">Pandawa 76</h5>
-              <p class="fw-bold pb-1" id="clock"></p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reprehenderit atque saepe, eius esse et veritatis ratione sapiente quaerat illum ex suscipit pariatur omnis harum
-                libero eveniet exercitationem facere vero temporibus eos modi laboriosam voluptatum? Iusto, adipisci molestiae, nulla similique doloremque pariatur est, perspiciatis autem quod id
-                optio? A cum esse exercitationem molestiae fuga reiciendis illo pariatur aspernatur optio, consequuntur nisi alias accusantium, nam corporis ut, quaerat eaque.
-              </p>
-              <hr />
-            </div>
-            <div class="isi-pesan">
-              <h5 class="fw-bold">jujur</h5>
-              <p class="fw-bold pb-1" id="clock"></p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci dicta saepe vel pariatur provident sit quae nobis libero beatae, quas aliquam tempora quo numquam deleniti
-                quibusdam, et excepturi
-              </p>
-              <hr />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end of wishes -->
-    <!-- waves5 -->
-    <img src="img/waves/waves5.png" alt="waves provided by loading.io" srcset=""  class="d-none"/>
-    <!-- end of waves5 -->
-    <!-- prokes -->
-    <div class="prokes-wrapper bg-biru-tua d-none py-5">
-      <div class="container">
-        <div class="col-10 offset-1 bg-light text-dark bs-biru-low-full prokes ">
-          
+        <div class="col-10 offset-1 bg-biru-tua text-light bs-biru-low-full prokes ">
           <div class="col-md-8 offset-md-2">
           <h1 class="text-center ff-brittany ts-biru-low fz-3 pt-5 pb-3 fw-bold">
             Protokol Kesehatan
@@ -505,35 +367,156 @@
               <p class="text-center fw-bold ff-roboto-condensed">Menjaga Jarak</p>
             </div>
           </div>
-          
+        
+      </div>
+    </div>
+    <!-- end of wishes -->
+    <!-- waves5 -->
+    <div class="waves-biru-1 d-none"></div>
+    <!-- end of waves5 -->
+    <!-- prokes -->
+    <div class="prokes-wrapper bg-biru-tua text-light d-none py-5" id="wish">
+      <div class="container">
+        <div class="header col-10 offset-1">
+          <h1 class="text-center pt-4 fw-bold pb-3 ff-brittany ts-biru-low fz-3">Wishes</h1>
+        </div>
+        <div class="pesan-doa mt-5">
+          <div class="header">
+            <p class="text-center">Ucapan Selamat dan doa untuk</p>
+            <h1 class="text-center pb-5 ff-brittany fz-2 ts-biru-low fw-bold">Dewi & Rahman</h1>
+          </div>
+        </div>
+        <div class="row px-0 mx-0">
+          <div class="col-md-5 offset-md-1 col-10 offset-1 form-wrapper">
+            <div class="form">
+              <div class="form-floating mb-2 ">
+                <input type="name" class="form-control mb-2 border-0 border-bottom bg-transparent text-light" id="floatingInput" placeholder="Nama" />
+                <label for="floatingInput">Nama</label>
+              </div>
+              <div class="form-floating mb-2">
+                <textarea class="form-control bg-transparent mb-2 border-0 border-bottom text-light" placeholder="tinggalkan pesan dan/atau doa anda" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Ucapan selamat dan Doa</label>
+              </div>
+              <button type="submit" class="btn btn-light">Tulis pesan</button>
+            </div>
+          </div>
+          <div class="col-md-5 col-10 offset-1 offset-md-0 mb-5 mt-5 mt-md-0 pesan-wrapper overflow-auto">
+            <div class="pesan">
+              <div class="isi-pesan">
+                <h5 class="fw-bold">Test</h5>
+                <p class="fw-bold pb-1" id="clock"></p>
+                <p>test ini pesan dari yang dikirim</p>
+                <hr />
+              </div>
+              <div class="isi-pesan">
+                <h5 class="fw-bold">Pandawa 76</h5>
+                <p class="fw-bold pb-1" id="clock"></p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reprehenderit atque saepe, eius esse et veritatis ratione sapiente quaerat illum ex suscipit pariatur omnis harum
+                  libero eveniet exercitationem facere vero temporibus eos modi laboriosam voluptatum? Iusto, adipisci molestiae, nulla similique doloremque pariatur est, perspiciatis autem quod id
+                  optio? A cum esse exercitationem molestiae fuga reiciendis illo pariatur aspernatur optio, consequuntur nisi alias accusantium, nam corporis ut, quaerat eaque.
+                </p>
+                <hr />
+              </div>
+              <div class="isi-pesan">
+                <h5 class="fw-bold">jujur</h5>
+                <p class="fw-bold pb-1" id="clock"></p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci dicta saepe vel pariatur provident sit quae nobis libero beatae, quas aliquam tempora quo numquam deleniti
+                  quibusdam, et excepturi
+                </p>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="angpau bs-biru-low bg-light text-dark col-md-6 offset-md-3 col-10 offset-1 py-5">
+          <div class="head">
+            <div class="container">
+              <h1 class="text-center pb-3 fw-bold ff-brittany ts-biru-tua fz-2">Love Gift</h1>
+              <p class="text-center">Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat mengklik tombol di bawah ini</p>
+            </div>
+          </div>
+          <div class="tombol-gift mx-auto position-relative">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mx-auto position-absolute top-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="bi bi-gift-fill"></i> Wedding Gift
+            </button>
+            <!-- modal -->
+            <div class="modal fade py-3 " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Love Gift</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+                    <div class="row">
+                      <div class="col-5 offset-1">
+                        <h5>BRI-<strong class="font-monospace" id="copy-no">01234567890</strong></h5>
+                        <h4>an. lorem</h4>
+                        <button class="btn  bg-dark text-light" id="copy-btn">Copy Nomor</button>
+                      </div>
+                      <div class="col-5">
+                        <h5>OVO-<strong id="copy_no" class="font-monospace">01234567890</strong></h5>
+                        <h4>an. lorem</h4>
+                        <button class="btn bg-dark text-light" id="copy-btn">Copy Nomor</button>
+                      </div>
+                    </div>
+                    <div class="col-10 offset-1">
+                    <div class="form pb-3 fw-bold">
+                      <h2>Kirim Pesan</h2>
+                      <div class="form-floating">
+                        <select class="form-select fw-bold" id="floatingSelect" aria-label="Floating label select example">
+                          <option selected>Nomor Rekening</option>
+                          <option value="1">BRI-01234567890</option>
+                          <option value="2">OVO-01234567890</option>
+                        </select>
+                        <label for="floatingSelect" class="fw-bold">Pilih Nomor Rekening</label>
+                      </div>
+                      <form class="form-floating">
+                        <input type="Nama" class="form-control" id="floatingInputName" placeholder="nama"" />
+                        <label for="floatingInputName">nama</label>
+                      </form>
+                      <form class="form-floating">
+                        <input type="Nama" class="form-control" id="floatingInputName" placeholder="nomor"" />
+                        <label for="floatingInputName">nomor HP</label>
+                      </form>
+                      <form class="form-floating">
+                        <input type="Nominal" class="form-control" id="floatingInputNom" placeholder="10000"" />
+                        <label for="floatingInputNom">nominal</label>
+                      </form>
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="pesan anda" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Ucapan Doa</label>
+                      </div>
+                    </div>
+                  </div>             
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Kirim</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!-- end of prokes -->
     <!-- waves6 -->
-    <div class="waves6 d-none position-relative">
-      <img src="img/waves/waves6.svg" alt="waves provided by loading.io" />
+    <div class="waves-biru-2 d-none">
+      <img src="img/waves/wave-biru-lg-2.svg" alt="" srcset="">
     </div>
     <!-- end of waves6 -->
     <!-- terima kasih -->
-    <div class="d-none terima-kasih position-relative pb-3">
-      <div class="container">
-        <div class="bawah position-absolute bottom-0 start-50 translate-middle-x">
-          <h2 class="text-center ff-mont-heavy fz-1-5 pb-3">Kami yang Berbahagia</h2>
-          <div class="row">
-            <div class="col-6 offset-md-2 col-md-4">
-              <h5 class="text-center ff-brittany fz-1-5 fw-bold">Dewi</h5>
-              <p class="text-center ff-roboto-con">Kel. Bpk Abdul Hamid(alm)</p>
-              <p class="text-center ff-roboto-con">Kel. Ibu Sa'anah</p>
-            </div>
-            <div class="col-6 col-md-4 ">
-              <h5 class="text-center ff-brittany fz-1-5 fw-bold">Rahman</h5>
-              <p class="text-center ff-roboto-con">Kel. Bpk Halimi(alm)</p>
-              <p class="text-center ff-roboto-con pb-5">Kel. Kholifah</p>
-            </div>
-          </div>
+    <div class="d-none terima-kasih pb-3">
+        <div class="bawah">
+          <h2 class="text-center ff-mont-heavy fz-1-5 pb-5">Kami yang Berbahagia</h2>
+          <h5 class="text-center ff-brittany fz-2-5 fw-bold ts-biru-low">Dewi & Rahman</h5>
         </div>
-      </div>
     </div>
     <!-- end of terima kasih -->
     <!-- footer -->

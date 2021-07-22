@@ -85,7 +85,6 @@
   }
   .terima-kasih {
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/Background_portarait2.jpg);
-    height: 100vh;
   }
   footer {
     margin-bottom: 90px;
@@ -94,10 +93,16 @@
     height: 90px;
   }
   .waves-atas {
-    background-image: url(../img/waves/svg/waves-atas-sm.svg);
+    background-image: url(../img/waves/waves-atas-sm.svg);
   }
   .waves-bawah {
-    background-image: url(../img/waves/svg/waves-bawah-sm.svg);
+    background-image: url(../img/waves/waves-bawah-sm.svg);
+  }
+  .waves-biru-1 {
+    background-image: url(../img/waves/wave-biru-sm-1.svg);
+  }
+  .waves-biru-2 {
+    background-image: url(../img/waves/wave-biru-sm-2.svg);
   }
   .mempelai-wrapper {
     background: linear-gradient(#7180ad, #88b1d1);

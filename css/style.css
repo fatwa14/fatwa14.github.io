@@ -3,6 +3,9 @@ body {
   font-size: 16px;
   font-family: "Caviar Dreams", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+img {
+  width: 100%;
+}
 /* font family*/
 .ff-brittany {
   font-family: "brittany signature", "apalu Script", "reman", "Tahu!";
@@ -151,16 +154,31 @@ body {
 .waves-atas {
   height: 250px;
   width: 100%;
-  background-image: url(../img/waves/svg/waves-atas-lg.svg);
+  background-image: url(../img/waves/waves-atas-lg.svg);
   background-position: center;
   background-size: cover;
 }
 .waves-bawah {
   height: 250px;
   width: 100%;
-  background-image: url(../img/waves/svg/waves-bawah-lg.svg);
+  background-image: url(../img/waves/waves-bawah-lg.svg);
   background-position: center;
   background-size: cover;
+}
+.waves-biru-1 {
+  height: 250px;
+  width: 100%;
+  background-image: url(../img/waves/wave-biru-lg-1.svg);
+  background-position: center;
+  background-size: cover;
+}
+.waves-biru-2 {
+  height: 250px;
+  width: 100%;
+}
+.waves-biru-2 img {
+  width: 100%;
+  z-index: 998;
 }
 /* mempelai */
 .mempelai-wrapper {
@@ -207,15 +225,16 @@ body {
 }
 /* wish */
 .angpau {
-  background-image: url(../img/bg-3.jpg);
-  background-position: bottom;
-  background-size: cover;
   border: 2px solid #135589;
   border-radius: 15px;
 }
 .pesan-wrapper {
   height: 300px;
 }
+/* .form-wrapper .form-floating {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none !important;
+} */
 /* prokes */
 .bg-biru-tua {
   background-color: #1f6192;
@@ -224,28 +243,22 @@ body {
   height: 140px;
 }
 .prokes {
-  background-image: url(../img/bg-1.jpg);
-  background-position: contain;
-  background-size: 100% 100%;
   border-radius: 20px;
 }
-.waves6 {
-  height: 250px;
-  z-index: 990;
-}
 .bawah {
-  width: 80vw;
+  padding-top: 70vh;
+  margin: 0;
 }
 .terima-kasih p {
   margin: 0;
 }
 .terima-kasih {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/background_l3.jpg);
-  height: 150vh;
+  height: 100vh;
   background-position: center;
   background-size: cover;
-  margin-top: -250px;
   z-index: 1;
+  margin-top: -200px;
 }
 .bg-biru-tua {
   background-image: linear-gradient(#206293, #226494);
