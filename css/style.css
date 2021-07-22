@@ -291,10 +291,6 @@ footer a:hover {
   color: white;
   cursor: pointer;
 }
-.link:hover {
-  background-color: #1f6192;
-  color: #379bd8;
-}
 .navbar-row {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -302,4 +298,5 @@ footer a:hover {
 }
 nav {
   box-shadow: 2px 2px 5px 1px #1afdfe;
+  size: 100vw;
 }
