@@ -64,7 +64,7 @@
         <div class="top pt-5 position-absolute top-0 start-50 translate-middle-x">
           <h1 class="text-center ff-roboto-con fz-2-5 ts-biru-low">THE WEDDING OF</h1>
         </div>
-        <div class="name position-absolute start-50 translate-middle-x">
+        <div data-aos="fade-up" class="name position-absolute start-50 translate-middle-x">
           <h1 class="text-center fw-bold ts-biru-low fz-4">Dewi</h1>
           <h3 class="text-center fw-bold ts-biru-low fz-3">&</h3>
           <h1 class="text-center fw-bold ts-biru-low fz-4">Rahman</h1>
@@ -80,16 +80,15 @@
       <div class="container">
         <div class="row">
           <div data-aos="fade-right" class="bg-pic border border-dark col-lg-5 offset-lg-1 col-10 offset-1 bs-biru-tua"></div>
-          <div data-aos="fade-left" class="an-nur-wrapper bg-biru-muda border border-dark col-lg-5 col-10 offset-1 bs-biru-tua">
+          <div data-aos="fade-left" data-aos-delay="500" class="an-nur-wrapper bg-biru-muda border border-dark col-lg-5 col-10 offset-1 bs-biru-tua">
             <div class="an-nur p-4">
               <figure class="text-center">
                 <blockquote class="blockquote d-block">
                   <p class="text-justify fw-bold fz-1">
-                    Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia
-                    menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
+                    Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
                   </p>
                 </blockquote>
-                <figcaption class="blockquote-footer fw-bold">QS. Ar-Rum :21</figcaption>
+                <figcaption class="blockquote-footer fw-bold text-light">QS. Ar-Rum :21</figcaption>
               </figure>
             </div>
           </div>
@@ -132,9 +131,9 @@
       <div class="event col-md-10 offset-md-1">
         <h1 class="text-center pt-3 pb-5 fw-bold ff-brittany ts-biru-low fz-3">Event</h1>
       </div>
-      <div class="hitung-mundur-wrapper mt-3 bs-biru-low-full rounded-3 col-10 offset-1 rounded-3 bs-biru-low-full mb-2">
-        <div class="hitung-mundur bg-biru-tua text-light">
-          <h1 class="text-center ff-brittany pt-5 pb-3 fz-3 ts-biru-low">Save The Date...</h1>
+      <div class="hitung-mundur-wrapper mt-3 bs-biru-low-full bg-biru-tua text-light col-10 offset-1 mb-2">
+        <div class="hitung-mundur">
+          <h1 class="text-center ff-brittany pt-5 pb-3 ts-biru-low">Save The Date...</h1>
           <div class="row">
             <div class="col-md-1 col-2 offset-2 offset-md-4">
               <h1 class="text-center ff-mont-heavy" id="hari">00</h1>
@@ -155,7 +154,7 @@
           </div>
         </div>
       </div>
-      <div class="akad-wrapper col-10 offset-1 mt-3 rounded-3">
+      <div class="akad-wrapper col-10 offset-1 mt-3">
         <div class="container">
           <div class="akad">
             <h1 class="text-center pt-5 pb-3 ff-brittany ts-biru-low">Akad Nikah</h1>
@@ -176,8 +175,8 @@
           </div>
         </div>
       </div>
-      <div class="gmaps-wrapper col-10 offset-1 mt-3 text-light bs-biru-low-full bs-biru-low-full">
-        <div class="gmaps-wraper bg-biru-tua text-light">
+      <div class="gmaps-wrapper bg-biru-tua col-10 offset-1 mt-3 text-light bs-biru-low-full">
+        <div class="gmaps-wraper">
           <h1 class="text-center ff-brittany fz-3 pt-5 pb-3 ts-biru-low">Locaation</h1>
           <div class="gmaps mx-auto">
             <iframe
@@ -207,7 +206,7 @@
     <div class="gallery d-none" id="gallery">
       <div class="container">
         <div class="header">
-          <h1 class="text-center pb-5 pt-4 ff-brittany ts-biru-tua fz-3 fw-bold">Gallery</h1>
+          <h1 class="text-center text-light pb-5 pt-4 ff-brittany ts-biru-tua fz-3 fw-bold">Gallery</h1>
         </div>
         <div class="gallery-image">
           <div class="row pb-5">
@@ -346,7 +345,7 @@
     <!-- Wishes -->
     <div class="wish d-none">
       <div class="container">
-        <div class="col-10 offset-1 bg-biru-tua text-light bs-biru-low-full prokes ">
+        <div class="col-10 offset-1 bg-biru-tua-half text-light bs-biru-low-full prokes ">
           <div class="col-md-8 offset-md-2">
           <h1 class="text-center ff-brittany ts-biru-low fz-3 pt-5 pb-3 fw-bold">
             Protokol Kesehatan
@@ -582,7 +581,12 @@
     <!-- AOS Library -->
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
-        AOS.init();
+        AOS.init({
+          once: false,
+          duration: 1000,
+          anchorPlacement: 'center-center'
+        }
+        );
       </script>
 
     <!--Bootstrap Bundle with Popper -->

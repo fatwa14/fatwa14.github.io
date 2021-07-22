@@ -138,6 +138,9 @@ img {
   height: 550px;
   border-radius: 20px;
 }
+.text-justify {
+  text-align: justify !important;
+}
 .an-nur-wrapper {
   background-color: #aed9da;
   min-height: 500px;
@@ -199,8 +202,14 @@ img {
   background-position: center;
   background-size: cover;
   color: white;
+  border-radius: 15px !important;
 }
-
+.hitung-mundur-wrapper {
+  border-radius: 15px;
+}
+.gmaps-wrapper {
+  border-radius: 15px !important;
+}
 .gmaps {
   width: 400px;
   height: 300px;
@@ -231,13 +240,12 @@ img {
 .pesan-wrapper {
   height: 300px;
 }
-/* .form-wrapper .form-floating {
-  background-color: rgba(0, 0, 0, 0) !important;
-  border: none !important;
-} */
 /* prokes */
 .bg-biru-tua {
   background-color: #1f6192;
+}
+.bg-biru-tua-half {
+  background-color: rgba(31, 97, 146, 0.7);
 }
 .prokes img {
   height: 140px;
