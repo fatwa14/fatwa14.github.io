@@ -1,7 +1,5 @@
 html,
 body {
-  background-image: url(../img/paper.jpg);
-  background-repeat: repeat;
   font-size: 16px;
   font-family: "Caviar Dreams", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -150,13 +148,23 @@ body {
   vertical-align: middle;
 }
 /* waves */
-img {
+.waves-atas {
+  height: 250px;
   width: 100%;
+  background-image: url(../img/waves/svg/waves-atas-lg.svg);
+  background-position: center;
+  background-size: cover;
 }
-
+.waves-bawah {
+  height: 250px;
+  width: 100%;
+  background-image: url(../img/waves/svg/waves-bawah-lg.svg);
+  background-position: center;
+  background-size: cover;
+}
 /* mempelai */
 .mempelai-wrapper {
-  background: linear-gradient(#379bd8, #b5dcdd);
+  background: linear-gradient(#808db7, #88b1d1);
 }
 .mempelai img {
   width: 200px;
@@ -165,15 +173,8 @@ img {
   height: 100%;
 }
 /* Event */
-.hitung-mundur-wrapper {
-  background-image: url(../img/bg-3.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-.gmaps-wrapper {
-  background-image: url(../img/bg-2.jpg);
-  background-position: top;
-  background-size: cover;
+.bg-biru-muda {
+  background-color: #2a93d5;
 }
 .akad-wrapper {
   background-image: linear-gradient(rgba(19, 85, 137, 0.7), rgba(19, 85, 137, 0.7)), url(../img/background_l3.jpg);
@@ -188,7 +189,7 @@ img {
 }
 /* Gallery */
 .gallery {
-  background: linear-gradient(to right, #379bd8, #1afdfe);
+  background: linear-gradient(#808db7, #88b1d1);
 }
 
 .gallery-image img {

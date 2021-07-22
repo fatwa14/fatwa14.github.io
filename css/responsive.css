@@ -93,4 +93,16 @@
   nav {
     height: 90px;
   }
+  .waves-atas {
+    background-image: url(../img/waves/svg/waves-atas-sm.svg);
+  }
+  .waves-bawah {
+    background-image: url(../img/waves/svg/waves-bawah-sm.svg);
+  }
+  .mempelai-wrapper {
+    background: linear-gradient(#7180ad, #88b1d1);
+  }
+  .gallery {
+    background: linear-gradient(#7180ad, #88b1d1);
+  }
 }

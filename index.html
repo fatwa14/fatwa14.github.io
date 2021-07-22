@@ -7,6 +7,8 @@
     <meta name="description" content="Official Wedding Invitation Of Dewi Dan Rahman" />
     <meta name="author" content="Dewi Safitri, Fatwa A. Rahman" />
 
+    <!-- AOS lib -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -77,12 +79,12 @@
     <div class="ayat d-none mt-5">
       <div class="container">
         <div class="row">
-          <div class="bg-pic border border-dark col-lg-5 offset-lg-1 col-10 offset-1 bs-biru-tua"></div>
-          <div class="an-nur-wrapper border border-dark col-lg-5 col-10 offset-1 bs-biru-tua">
+          <div data-aos="fade-right" class="bg-pic border border-dark col-lg-5 offset-lg-1 col-10 offset-1 bs-biru-tua"></div>
+          <div data-aos="fade-left" class="an-nur-wrapper bg-biru-muda border border-dark col-lg-5 col-10 offset-1 bs-biru-tua">
             <div class="an-nur p-4">
               <figure class="text-center">
-                <blockquote class="blockquote">
-                  <p class="fw-bold text-justify">
+                <blockquote class="blockquote d-block">
+                  <p class="text-justify fw-bold fz-1">
                     Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia
                     menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
                   </p>
@@ -96,7 +98,7 @@
     </div>
     <!-- end of ayat -->
     <!-- waves 1 -->
-    <img src="img/waves/waves.png" alt="waves provided by loading.io" class="d-none"/>
+    <div class="waves-atas d-none"></div>
     <!-- end of waves 1 -->
     <div class="mempelai-wrapper d-none" id="couple">
       <div class="container">
@@ -110,30 +112,29 @@
           <div class="mempelai-wanita mempelai-height">
             <img src="img/pp/wanita.jpeg" alt="Dewi Safitri" class="float-lg-end mx-lg-3 rounded-circle border border-primary" />
             <div class="mempelai-name">
-              <h1 class="pt-5 pb-2 text-lg-end text-center fw-bold ff-brittany fz-3 ts-biru-muda">Dewi Safitri</h1>
+              <h1 class="pt-5 pb-2 text-lg-end text-center fw-bold ff-brittany fz-3 ts-biru-low">Dewi Safitri</h1>
               <h3 class="text-lg-end pb-5 text-center fz-1-25">Putri Ke Lima Bpk. Abdul Hamid (alm) dan Ibu Sa'anah</h3>
             </div>
           </div>
           <div class="mempelai-pria mempelai-height">
             <img src="img/pp/pria.jpeg" alt="Fatwa A. Rahman" class="float-lg-start mx-lg-3 rounded-circle border border-primary" />
-            <h1 class="ff-brittany fz-3 ts-biru-muda text-lg-start pt-5 pb-2 text-center fw-bold">Fatwa A. Rahman S.Kom</h1>
+            <h1 class="ff-brittany fz-3 ts-biru-low text-lg-start pt-5 pb-2 text-center fw-bold">Fatwa A. Rahman S.Kom</h1>
             <h3 class="text-lg-start pb-5 text-center fz-1-25">Putra Ke Empat Bpk. Halimi (alm) dan Ibu Kholifah</h3>
           </div>
         </div>
       </div>
     </div>
     <!-- waves2 -->
-    <img src="img/waves/waves2.png" alt="waves provided by loading.io" srcset="" class="d-none" />
+    <div class="waves-bawah d-none"></div>
     <!-- end of waves2 -->
     <!-- Akad -->
     <div class="container d-none" id="event">
       <div class="event col-md-10 offset-md-1">
-        <h1 class="text-center pt-5 pb-3 fw-bold ff-brittany ts-biru-muda fz-3">Event</h1>
-        <p class="text-center pb-3">Dengan menyebut nama Allah SWT, yang maha pengasih lagi maha penyayang. Kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan putra-putri kami:</p>
+        <h1 class="text-center pt-3 pb-5 fw-bold ff-brittany ts-biru-low fz-3">Event</h1>
       </div>
-      <div class="hitung-mundur-wrapper col-10 offset-1 rounded-3 bs-biru-low-full mb-2">
-        <div class="hitung-mundur">
-          <h1 class="text-center ff-brittany pt-5 pb-3 fz-3">Just some hours...</h1>
+      <div class="hitung-mundur-wrapper mt-3 bs-biru-low-full rounded-3 col-10 offset-1 rounded-3 bs-biru-low-full mb-2">
+        <div class="hitung-mundur bg-biru-tua text-light">
+          <h1 class="text-center ff-brittany pt-5 pb-3 fz-3 ts-biru-low">Save The Date...</h1>
           <div class="row">
             <div class="col-md-1 col-2 offset-2 offset-md-4">
               <h1 class="text-center ff-mont-heavy" id="hari">00</h1>
@@ -152,7 +153,6 @@
               <p class="text-center">Detik</p>
             </div>
           </div>
-          <h1 class="text-center ff-brittany pb-3 mt-2 fz-3">...until we maried!</h1>
         </div>
       </div>
       <div class="akad-wrapper col-10 offset-1 mt-3 rounded-3">
@@ -177,8 +177,8 @@
         </div>
       </div>
       <div class="gmaps-wrapper col-10 offset-1 mt-3 text-light bs-biru-low-full bs-biru-low-full">
-        <div class="gmaps-wraper">
-          <h1 class="text-center ff-brittany fz-3 pt-5 pb-3 ts-biru-muda">Locaation</h1>
+        <div class="gmaps-wraper bg-biru-tua text-light">
+          <h1 class="text-center ff-brittany fz-3 pt-5 pb-3 ts-biru-low">Locaation</h1>
           <div class="gmaps mx-auto">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.3835497672446!2d106.9577381291677!3d-6.324741666771605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTknMjkuMSJTIDEwNsKwNTcnMjkuOCJF!5e0!3m2!1sid!2sus!4v1625372382510!5m2!1sid!2sus"
@@ -200,7 +200,7 @@
     </div>
     <!-- end of akad -->
     <!-- waves3 -->
-    <img src="img/waves/waves3.png" alt="waves provided by loading.io" srcset=""  class="d-none"/>
+    <div class="waves-atas d-none"></div>
     <!-- end of waves3 -->
 
     <!-- Gallery -->
@@ -340,7 +340,7 @@
 
     <!-- end of gallery -->
     <!-- waves4 -->
-    <img src="img/waves/waves4.png" alt="waves provided by loading.io" srcset="" class="d-none" />
+    <div class="waves-bawah d-none"></div>
     <!-- end of waves4 -->
 
     <!-- Wishes -->
@@ -596,6 +596,12 @@
       </div>
     </nav>
     <!-- end of navbar -->
+    <!-- AOS Library -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
     <!--Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
