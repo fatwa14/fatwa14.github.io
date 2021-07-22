@@ -46,7 +46,7 @@
             <h3 class="text-center"><strong class="ff-roboto-con">Lorem Ipsum Dolor Sit</strong></h3>
           </div>
           <div class="button position-absolute bottom-0 start-50 translate-middle-x mb-3">
-            <button class="btn tombol" id="open">Open Invitation</button>
+            <button class="btn tombol mb-5 mb-sm-0" id="open">Open Invitation</button>
           </div>
         </div>
         <div class="play">
@@ -62,7 +62,7 @@
     <div class="welcome-page d-none position-relative ff-brittany" id="welcome">
       <div class="container ">
         <div class="top pt-5 position-absolute top-0 start-50 translate-middle-x">
-          <h1 class="text-center ff-roboto-con fz-2-5 ts-biru-low">THE WEDDING OF</h1>
+          <h1 data-aos="zoom-in" class="text-center ff-roboto-con fz-2-5 ts-biru-low">THE WEDDING OF</h1>
         </div>
         <div data-aos="fade-up" class="name position-absolute start-50 translate-middle-x">
           <h1 class="text-center fw-bold ts-biru-low fz-4">Dewi</h1>
@@ -109,16 +109,16 @@
         </div>
         <div class="mempelai col-10 offset-1 pb-3">
           <div class="mempelai-wanita mempelai-height">
-            <img src="img/pp/wanita.jpeg" alt="Dewi Safitri" class="float-lg-end mx-lg-3 rounded-circle border border-primary" />
+            <img data-aos="fade-right" src="img/pp/wanita.jpeg" alt="Dewi Safitri" class="float-lg-end mx-lg-3 rounded-circle border border-primary" />
             <div class="mempelai-name">
-              <h1 class="pt-5 pb-2 text-lg-end text-center fw-bold ff-brittany fz-3 ts-biru-low">Dewi Safitri</h1>
-              <h3 class="text-lg-end pb-5 text-center fz-1-25">Putri Ke Lima Bpk. Abdul Hamid (alm) dan Ibu Sa'anah</h3>
+              <h1 data-aos="fade-right" data-aos-delay="500" class="pt-5 pb-2 text-lg-end text-center fw-bold ff-brittany fz-3 ts-biru-low">Dewi Safitri</h1>
+              <h3 data-aos="fade-right" data-aos-delay="700" class="text-lg-end pb-5 text-center fz-1-25">Putri Ke Lima Bpk. Abdul Hamid (alm) dan Ibu Sa'anah</h3>
             </div>
           </div>
           <div class="mempelai-pria mempelai-height">
-            <img src="img/pp/pria.jpeg" alt="Fatwa A. Rahman" class="float-lg-start mx-lg-3 rounded-circle border border-primary" />
-            <h1 class="ff-brittany fz-3 ts-biru-low text-lg-start pt-5 pb-2 text-center fw-bold">Fatwa A. Rahman S.Kom</h1>
-            <h3 class="text-lg-start pb-5 text-center fz-1-25">Putra Ke Empat Bpk. Halimi (alm) dan Ibu Kholifah</h3>
+            <img data-aos="fade-left" src="img/pp/pria.jpeg" alt="Fatwa A. Rahman" class="float-lg-start mx-lg-3 rounded-circle border border-primary" />
+            <h1 data-aos="fade-left" data-aos-delay="500" class="ff-brittany fz-3 ts-biru-low text-lg-start pt-5 pb-2 text-center fw-bold">Fatwa A. Rahman S.Kom</h1>
+            <h3 class="text-lg-start pb-5 text-center fz-1-25" data-aos="fade-left" data-aos-delay="700">Putra Ke Empat Bpk. Halimi (alm) dan Ibu Kholifah</h3>
           </div>
         </div>
       </div>
@@ -582,9 +582,9 @@
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
         AOS.init({
-          once: false,
+          once: true,
           duration: 1000,
-          anchorPlacement: 'center-center'
+          anchorPlacement: 'center-bottom'
         }
         );
       </script>
