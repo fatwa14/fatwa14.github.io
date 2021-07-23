@@ -19,10 +19,10 @@ function pauseMusic() {
 }
 // tombol landing
 const open = document.getElementById("open");
-const hide = document.querySelectorAll(".d-none");
+const landing = document.querySelectorAll(".landing-page");
 open.addEventListener("click", function () {
-  hide.forEach(function looping(i) {
-    i.classList.remove("d-none");
+  landing.forEach(function looping(i) {
+    i.classList.add("hide");
   });
   function scrollKeAwal() {
     document.getElementById("welcome").scrollIntoView({ behavior: "smooth" });
