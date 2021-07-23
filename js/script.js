@@ -20,10 +20,15 @@ function pauseMusic() {
 // tombol landing
 const open = document.getElementById("open");
 const landing = document.querySelectorAll(".landing-page");
+const hide = document.querySelectorAll(".d-none");
 open.addEventListener("click", function () {
   landing.forEach(function looping(i) {
     i.classList.add("hide");
   });
+  hide.forEach(function looping(i) {
+    i.classList.add("d-none");
+  });
+
   function scrollKeAwal() {
     document.getElementById("welcome").scrollIntoView({ behavior: "smooth" });
   }
