@@ -93,18 +93,6 @@ img {
   top: -100vh;
   opacity: 0;
 }
-/* .animate {
-  animation: animetop 1s;
-}
-@keyframes animetop {
-  from {
-    top: 0;
-    opacity: 1;
-  }
-  to {
-    top: -100vh;
-    opacity: 0;
-  } */
 .initial {
   background-image: url(../img/initial.png);
   background-size: 100%;
@@ -145,40 +133,16 @@ img {
   position: relative;
 }
 .welcome-page {
-  height: 100vh;
+  height: 85vh;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/backgroun_l2.jpg);
   background-size: cover;
   color: #135589;
 }
 .name {
-  top: 50%;
+  top: 40%;
 }
 .top {
   width: 100%;
-}
-
-/* ayat */
-.bg-pic {
-  background-image: url(../img/Background_portarait2.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 550px;
-  border-radius: 20px;
-}
-.text-justify {
-  text-align: justify !important;
-}
-.an-nur-wrapper {
-  background-color: #aed9da;
-  min-height: 500px;
-  border-radius: 20px;
-  margin: 30px 40px 5px -20px;
-  line-height: 500px;
-}
-.an-nur figure {
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
 }
 /* waves */
 .waves-atas {
@@ -187,6 +151,9 @@ img {
   background-image: url(../img/waves/waves-atas-lg.svg);
   background-position: center;
   background-size: cover;
+}
+.top-250 {
+  margin-top: -160px;
 }
 .waves-bawah {
   height: 250px;
