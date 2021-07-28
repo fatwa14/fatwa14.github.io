@@ -17,13 +17,6 @@
   .name {
     top: 25%;
   }
-  /* an-nur */
-  .an-nur-wrapper {
-    margin: -20px 0 0 0;
-  }
-  .an-nur {
-    margin: 10px 0 0 0;
-  }
   /* mempelai */
   .mempelai img {
     width: 40%;
@@ -55,12 +48,6 @@
   }
   .invite {
     margin-bottom: 20%;
-  }
-  .an-nur-wrapper {
-    margin: -20px auto 0 auto;
-  }
-  .an-nur {
-    margin: 10px 0 0 0;
   }
   .tombol {
     width: 200px;
@@ -109,5 +96,8 @@
   }
   .gallery {
     background: linear-gradient(#7180ad, #88b1d1);
+  }
+  .play-button i {
+    top: 0.5px;
   }
 }
