@@ -91,12 +91,12 @@
   .waves-biru-2 {
     background-image: url(../img/waves/wave-bawah-2-smx.png);
   }
-  /* .mempelai-wrapper {
-    background: linear-gradient(#7180ad, #88b1d1);
+  .mempelai-wrapper {
+    background: linear-gradient(#2d6e9c, #379cd9);
   }
   .gallery {
-    background: linear-gradient(#7180ad, #88b1d1);
-  } */
+    background: linear-gradient(#2d6e9c, #379cd9);
+  }
   .play-button i {
     top: 0.5px;
   }
