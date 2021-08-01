@@ -80,16 +80,16 @@
     height: 90px;
   }
   .waves-atas {
-    background-image: url(../img/waves/waves-atas-sm.svg);
+    background-image: url(../img/waves/wave-atas-1-sm.png);
   }
   .waves-bawah {
-    background-image: url(../img/waves/waves-bawah-sm.svg);
+    background-image: url(../img/waves/wave-bawah-1-sm.png);
   }
   .waves-biru-1 {
-    background-image: url(../img/waves/wave-biru-sm-1.svg);
+    background-image: url(../img/waves/wave-atas-2-sm.png);
   }
   .waves-biru-2 {
-    background-image: url(../img/waves/wave-biru-sm-2.svg);
+    background-image: url(../img/waves/wave-bawah-2-smx.png);
   }
   .mempelai-wrapper {
     background: linear-gradient(#7180ad, #88b1d1);
