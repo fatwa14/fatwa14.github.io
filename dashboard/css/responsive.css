@@ -1,0 +1,19 @@
+@media all and (max-width: 768px) {
+  .login-wrapper {
+    width: 60vw;
+  }
+  .content {
+    margin-left: 0px;
+  }
+  .sidebar {
+    width: 100vw;
+  }
+  .sidebar:hover {
+    width: 100vw;
+  }
+}
+@media all and (max-width: 576px) {
+  .login-wrapper {
+    width: 90vw;
+  }
+}
