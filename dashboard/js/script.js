@@ -21,3 +21,24 @@ hamburger.addEventListener("click", function () {
     sidebar.classList.add("d-none");
   }
 });
+// WA
+const nmr = document.getElementById("wa").innerHTML;
+const whatsapp = document.getElementById("text").innerText;
+const tmbl = document.getElementById("tombolWA");
+const link = "https://wa.me/".concat(nmr).concat("?text=").concat(whatsapp);
+tmbl.addEventListener("click", function () {
+  window.open(link, "_blank");
+});
+
+// copy
+const cpy = document.getElementById("tombolCp");
+cpy.addEventListener("click", function () {
+  navigator.clipboard
+    .writeText(whatsapp)
+    .then(() => {
+      alert("Text copied to clipboard");
+    })
+    .catch((err) => {
+      alert("Error in copying text: ", err);
+    });
+});

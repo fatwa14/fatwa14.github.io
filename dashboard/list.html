@@ -79,13 +79,27 @@
       <div class="container">
         <h1 class="text-start">List Undangan</h1>
         <hr />
-        <div class="tabel-wrapper">
-          <table class="tabel table overflow-scroll table-striped table-hover">
+        <div class="d-inline-block">
+          <a href="add.html">
+            <button class="btn btn-primary">Tambah data</button>
+          </a>
+          <div class="d-inline-block">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <div class="tabel-wrapper overflow-scroll">
+          <table class="tabel table table-striped table-hover">
             <thead>
               <tr>
                 <th scope="col">No</th>
+                <th scope="col">Edit / Delete</th>
                 <th scope="col">Nama</th>
                 <th scope="col">Link</th>
+                <th scope="col">No WA</th>
                 <th scope="col">Template Ucapan</th>
                 <th scope="col">Action</th>
               </tr>
@@ -93,30 +107,117 @@
             <tbody>
               <tr>
                 <th scope="row">1</th>
+                <td>
+                  <button class="btn btn-primary tombol-tabel">Edit</button>
+                  <button class="btn btn-light tombol-tabel">Delete</button>
+                </td>
                 <td>Kurnia</td>
                 <td>jchjchj.web.id?to=kurnia</td>
+                <td><div class="wa" id="wa">628987814974</div></td>
                 <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  <p class="text" id="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  </p>
                 </td>
-                <td><button class="btn btn-primary d-inline">copy</button><button class="btn btn-danger d-inline">W A</button></td>
+                <td>
+                  <button id="tombolCp" class="btn btn-primary tombol-tabel">copy</button>
+                  <button id="tombolWA" class="btn btn-success tombol-tabel">W A</button>
+                </td>
               </tr>
               <tr>
-                <th scope="row">2</th>
+                <th scope="row">1</th>
+                <td>
+                  <button class="btn btn-primary tombol-tabel">Edit</button>
+                  <button class="btn btn-light tombol-tabel">Delete</button>
+                </td>
                 <td>Kurnia</td>
                 <td>jchjchj.web.id?to=kurnia</td>
+                <td><div class="wa" id="wa">628987814974</div></td>
                 <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  <p class="text" id="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  </p>
                 </td>
-                <td><button>copy</button><button>WA</button></td>
+                <td>
+                  <button id="tombolCp" class="btn btn-primary tombol-tabel">copy</button>
+                  <button id="tombolWA" class="btn btn-success tombol-tabel">W A</button>
+                </td>
               </tr>
               <tr>
-                <th scope="row">3</th>
+                <th scope="row">1</th>
+                <td>
+                  <button class="btn btn-primary tombol-tabel">Edit</button>
+                  <button class="btn btn-light tombol-tabel">Delete</button>
+                </td>
                 <td>Kurnia</td>
                 <td>jchjchj.web.id?to=kurnia</td>
+                <td><div class="wa" id="wa">628987814974</div></td>
                 <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  <p class="text" id="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  </p>
                 </td>
-                <td><button>copy</button><button>WA</button></td>
+                <td>
+                  <button id="tombolCp" class="btn btn-primary tombol-tabel">copy</button>
+                  <button id="tombolWA" class="btn btn-success tombol-tabel">W A</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>
+                  <button class="btn btn-primary tombol-tabel">Edit</button>
+                  <button class="btn btn-light tombol-tabel">Delete</button>
+                </td>
+                <td>Kurnia</td>
+                <td>jchjchj.web.id?to=kurnia</td>
+                <td><div class="wa" id="wa">628987814974</div></td>
+                <td>
+                  <p class="text" id="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  </p>
+                </td>
+                <td>
+                  <button id="tombolCp" class="btn btn-primary tombol-tabel">copy</button>
+                  <button id="tombolWA" class="btn btn-success tombol-tabel">W A</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>
+                  <button class="btn btn-primary tombol-tabel">Edit</button>
+                  <button class="btn btn-light tombol-tabel">Delete</button>
+                </td>
+                <td>Kurnia</td>
+                <td>jchjchj.web.id?to=kurnia</td>
+                <td><div class="wa" id="wa">628987814974</div></td>
+                <td>
+                  <p class="text" id="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  </p>
+                </td>
+                <td>
+                  <button id="tombolCp" class="btn btn-primary tombol-tabel">copy</button>
+                  <button id="tombolWA" class="btn btn-success tombol-tabel">W A</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>
+                  <button class="btn btn-primary tombol-tabel">Edit</button>
+                  <button class="btn btn-light tombol-tabel">Delete</button>
+                </td>
+                <td>Kurnia</td>
+                <td>jchjchj.web.id?to=kurnia</td>
+                <td><div class="wa" id="wa">628987814974</div></td>
+                <td>
+                  <p class="text" id="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
+                  </p>
+                </td>
+                <td>
+                  <button id="tombolCp" class="btn btn-primary tombol-tabel">copy</button>
+                  <button id="tombolWA" class="btn btn-success tombol-tabel">W A</button>
+                </td>
               </tr>
             </tbody>
           </table>

@@ -36,7 +36,6 @@
     </div>
 
     <!-- sidebar -->
-    div.
     <div class="sidebar position-fixed top-0 start-0 bg-linear text-light d-md-block d-none" id="sidebar">
       <div class="m-0">
         <ul class="m-0 p-0">
@@ -63,10 +62,10 @@
             <li class="text-center text-md-start"><i class="bi bi-cloud-arrow-up"></i> Unggah Data</li>
           </a>
           <a href="comment.html">
-            <li class="aktif text-center text-md-start"><i class="bi bi-chat-dots"></i> Ucapan dan Doa</li>
+            <li class="text-center text-md-start"><i class="bi bi-chat-dots"></i> Ucapan dan Doa</li>
           </a>
           <a href="gift.html">
-            <li class="text-center text-md-start"><i class="bi bi-gift"></i> Wedding Gift</li>
+            <li class="aktif text-center text-md-start"><i class="bi bi-gift"></i> Wedding Gift</li>
           </a>
           <a href="login.html">
             <li class="text-center text-md-start"><i class="bi bi-box-arrow-left"></i> Logout</li>
@@ -77,62 +76,29 @@
     <!-- content -->
     <div class="content ff-roboto-con">
       <div class="container">
-        <h1 class="text-start">Ucapan Selamat dan Doa</h1>
+        <h1 class="text-start">Tambah Data</h1>
         <hr />
-        <div class="d-inline-block">
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-        <hr />
-        <div class="tabel-wrapper overflow-scroll">
-          <table class="tabel table table-striped table-hover">
-            <thead>
-              <tr>
-                <th scope="col">No</th>
-                <th scope="col">Nama</th>
-                <th scope="col">Selamat dan Doa</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Kurnia</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Kurnia</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Kurnia</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Kurnia</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Kurnia</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla suscipit quas nostrum officia sed reprehenderit accusamus repellat. Pariatur ducimus eos, aliquam quasi sed a?
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="form-add">
+            <div class="form-floating mb-3">
+                <input type="name" class="form-control mb-2 border-0 border-bottom" id="namaPanggilan" placeholder="Nama Panggilan" />
+                <label for="namaPanggilan">Nama panggilan</label>
+                <div id="namaPanggilan" class="form-text">nama pendek (tanpa spasi)</div>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="name" class="form-control mb-2 border-0 border-bottom" id="namaLengkap" placeholder="Nama Lengkap" />
+                <label for="namaLengkap">Nama Lengkap</label>
+                <div id="namaPanggilan" class="form-text">nama Lengkap (boleh dengan partner)</div>
+              </div>
+              
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control mb-2 border-0 border-bottom" id="nomorWA" placeholder="Nomor WA" />
+                <label for="nomorWA">Nomor Whatsapp</label>
+                <div id="namaPanggilan" class="form-text">nomor whatsaap, format 628xxx</div>
+              </div>
+              <a href="index.html">
+                <button type="submit" class="tombol btn btn-primary">Input Data</button>
+              </a>
+              </div>
         </div>
       </div>
       <hr />

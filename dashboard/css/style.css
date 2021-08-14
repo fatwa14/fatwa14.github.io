@@ -123,3 +123,10 @@ body {
 .tabel {
   min-width: 600px;
 }
+.tombol-tabel {
+  width: 80px;
+  margin: 2px;
+}
+.form-add {
+  max-width: 500px;
+}
